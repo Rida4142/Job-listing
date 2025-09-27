@@ -21,8 +21,8 @@ const JobPage = () => {
 
     <section className="bg-indigo-50">
       <div className="container m-auto py-10 px-6">
-        <div className="grid grid-cols-1 md:grid-cols-70/30 w-full gap-6">
-          <main>
+       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <main className="md:col-span-2">
             <div
               className="bg-white p-6 rounded-lg shadow-md text-center md:text-left"
             >
@@ -54,7 +54,7 @@ const JobPage = () => {
           </main>
 
           {/* <!-- Sidebar --> */}
-          <aside>
+          <aside className="md:col-span-1">
             {/* <!-- Company Info --> */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-6">Company Info</h3>
